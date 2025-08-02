@@ -1,0 +1,130 @@
+/* styles.css */
+
+body {
+    background-color: #f3f6fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    min-height: 100vh;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbar {
+    max-width: 600px;
+    margin: 0 auto 24px auto;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.button {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #1976d2;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #12519e;
+}
+
+.page-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    padding: 24px 32px 32px 32px;
+    text-align: left;
+}
+
+.flight-list h3 {
+    margin-bottom: 16px;
+}
+
+.flight-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3f2fd;
+    margin-bottom: 8px;
+    padding: 12px 15px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+}
+
+.flight-logo {
+    margin-right: 10px;
+    font-size: 1.4rem;
+}
+
+.flight-item button {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+.flight-item button:hover {
+    background-color: #1b5e20;
+}
+
+.booking-modal {
+    margin-top: 20px;
+    padding: 16px;
+    border: 2px solid #1976d2;
+    border-radius: 8px;
+    background-color: #e3f2fd;
+}
+
+.booking-modal h3 {
+    margin-top: 0;
+}
+
+.booking-modal button {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.booking-confirm-btn {
+    background-color: #1976d2;
+    color: white;
+}
+
+.booking-confirm-btn:hover {
+    background-color: #0f3e80;
+}
+
+.booking-cancel-btn {
+    background-color: #e53935;
+    color: white;
+}
+
+.booking-cancel-btn:hover {
+    background-color: #ab000d;
+}
+
+.guest-message {
+    margin-top: 20px;
+    font-style: italic;
+}
